@@ -8,7 +8,7 @@ namespace Ejercicio_aves
 {
     class Pinguino
     {
-        public class Pinguino : Aves, iAve
+        public class Pinguino : Aves, IAve
         {
             public Pinguino(string nombre, string color) : base(nombre, color) { }
 
