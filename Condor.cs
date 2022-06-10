@@ -14,8 +14,8 @@ namespace Ejercicios_aves
 
             Console.WriteLine("-------------------");
             Console.WriteLine("");
-            Console.WriteLine("El nombre es " + nombre);
-            Console.WriteLine("El color es " + color);
+            Console.WriteLine("El nombre es " + Nombre);
+            Console.WriteLine("El color es " + Color);
             Console.WriteLine("");
             Console.WriteLine("-------------------");
 
@@ -24,7 +24,7 @@ namespace Ejercicios_aves
         {
             Console.WriteLine("-------------------");
             Console.WriteLine("");
-            Console.WriteLine("Condorito " + nombre);
+            Console.WriteLine("Condorito " + Nombre);
             Console.WriteLine("*vuela*");
             Console.WriteLine("");
             Console.WriteLine("-------------------");
