@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ave
+namespace Ejercicios_aves
 { 
-        interface iAve
+        interface IAve
         {
-            void nadar_AVE();
-            void volar_AVE();
+            void Nadar_ave();
+            void Volar_ave();
         }
 }
