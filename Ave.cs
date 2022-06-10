@@ -1,20 +1,20 @@
-﻿      using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ave
+namespace Ejercicios_aves
 {
-    public class Ave
+    public class Aves
     {
-        public string nombre { set; get; }
-        public string color { set; get; }
+        public string Nombre { set; get; }
+        public string Color { set; get; }
 
-        public Ave(string nombre, string color)
+        public Aves(string nombre, string color)
         {
-            this.nombre = nombre;
-            this.color = color;
+            this.Nombre = nombre;
+            this.Color = color;
         }
     }
 }
