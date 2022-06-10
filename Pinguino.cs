@@ -4,29 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ave
+namespace Ejercicio_aves
 {
     class Pinguino
     {
-        public class Pinguino : Ave, iAve
+        public class Pinguino : Aves, iAve
         {
             public Pinguino(string nombre, string color) : base(nombre, color) { }
 
-            public void nadar_AVE()
+            public void Nadar_ave()
             {
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
-                Console.WriteLine("El Nombre es" + nombre);
-                Console.WriteLine("El color es" + color);
+                Console.WriteLine("El Nombre es" + Nombre);
+                Console.WriteLine("El color es" + Color);
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
 
             }
-            public void volar_AVE()
+            public void Volar_ave()
             {
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
-                Console.WriteLine("Covasqui" + nombre);
+                Console.WriteLine("Covasqui" + Nombre);
                 Console.WriteLine("solo aleteo");
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
