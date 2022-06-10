@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ave
+namespace Ejercicios_aves
 {
-    public class Condor : Ave, iAve
+    public class Condor : Aves, IAve
     {
         public Condor(string nombre, string color) : base(nombre, color) { }
-        public void nadar_AVE()
+        public void Nadar_ave()
         {
 
             Console.WriteLine("-------------------");
@@ -20,7 +20,7 @@ namespace Ave
             Console.WriteLine("-------------------");
 
         }
-        public void volar_AVE()
+        public void Volar_ave()
         {
             Console.WriteLine("-------------------");
             Console.WriteLine("");
