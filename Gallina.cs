@@ -4,27 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ave
+namespace Ejercicios_aves
 {
-        public class Gallina : Ave, iAve
+        public class Gallina : Aves, IAve
         {
             public Gallina(string nombre, string color) : base(nombre, color) { }
 
-            public void nadar_AVE()
+            public void Nadar_ave()
             {
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
-                Console.WriteLine("El nombre es " + nombre);
-                Console.WriteLine("EL color es " + color);
+                Console.WriteLine("El nombre es " + Nombre);
+                Console.WriteLine("EL color es " + Color);
                 Console.WriteLine("");
                 Console.WriteLine("-------------------");
 
             }
-            public void volar_AVE()
+            public void Volar_ave()
             {
                 Console.WriteLine("-------------------");
                 Console.WriteLine("");
-                Console.WriteLine("La gallina turuleka" + nombre);
+                Console.WriteLine("La gallina turuleka" + Nombre);
                 Console.WriteLine("Dead");
                 Console.WriteLine("");
                 Console.WriteLine("-------------------");
