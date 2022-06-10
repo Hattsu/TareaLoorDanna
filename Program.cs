@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 
 
-namespace Ejercicio_ave
+namespace Ejercicio_aves
 {
     class Program
     {
